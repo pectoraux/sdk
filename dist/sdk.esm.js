@@ -781,7 +781,7 @@ var Pair = /*#__PURE__*/function () {
 
   Pair.getAddress = function getAddress(tokenA, tokenB, stable) {
     var _PAIR_ADDRESS_CACHE;
-
+    console.log("Pair.getAddress=========================>")
     var _ref = tokenA.sortsBefore(tokenB) ? [tokenA, tokenB] : [tokenB, tokenA],
         token0 = _ref[0],
         token1 = _ref[1]; // does safety checks
